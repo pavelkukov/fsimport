@@ -7,6 +7,8 @@ setuptools.setup(
     name="fsimport",                     # This is the name of the package
     version="0.0.1",                        # The initial release version
     author="Pavel Kukov",                     # Full name of the author
+    author_email = 'pavelkukov@gmail.com',
+    url = 'https://github.com/pavelkukov/fsimport',
     description="Import source file from the file system for Python",
     long_description=long_description,      # Long description read from the the readme file
     long_description_content_type="text/markdown",
