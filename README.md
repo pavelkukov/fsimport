@@ -16,8 +16,8 @@ Usage:
 ```python
 import fsimport
 
-include_lv0 = fsimport('../../include_lv0')
-include_lv1 = fsimport('../include_lv1')
-include_lv2 = fsimport('./include_lv2')
-include_lv3 = fsimport('./lv3/include_lv3')
+include_two_levels_up = fsimport('../../include')
+include_level_up = fsimport('../include')
+include_same_level = fsimport('./include')
+include_level_down = fsimport('./lv3/include')
 ```
