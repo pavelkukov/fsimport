@@ -11,7 +11,7 @@ spec.loader.exec_module(module_inst)
 
 It allows for a convenient way to import files based on the file system path. The path is relative to the caller script.
 
-Usage:
+## Usage:
 
 ```python
 import fsimport
@@ -21,3 +21,7 @@ include_level_up = fsimport('../include')
 include_same_level = fsimport('./include')
 include_level_down = fsimport('./lv3/include')
 ```
+
+## Install
+
+`pip install fsimport`
