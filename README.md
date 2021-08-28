@@ -25,3 +25,7 @@ include_level_down = fsimport('./lv3/include')
 ## Install
 
 `pip install fsimport`
+
+
+## Links
+PyPI - https://pypi.org/project/fsimport/0.0.3/
