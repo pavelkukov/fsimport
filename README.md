@@ -28,4 +28,4 @@ include_level_down = fsimport('./lv3/include_me.py')
 
 
 ## Links
-PyPI - https://pypi.org/project/fsimport/0.0.3/
+PyPI - https://pypi.org/project/fsimport/
