@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="fsimport",                     # This is the name of the package
-    version="0.0.3",                        # The initial release version
+    version="0.0.5",                        # The initial release version
     author="Pavel Kukov",                     # Full name of the author
     author_email = 'pavelkukov@gmail.com',
     url = 'https://github.com/pavelkukov/fsimport',

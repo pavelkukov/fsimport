@@ -4,8 +4,10 @@ import inspect
 import importlib
 from pathlib import Path
 
+from types import ModuleType
 
-def fsimport(rel_path: str) -> any:
+
+def fsimport(rel_path: str) -> ModuleType:
     """Return module loaded from file. File path is relative. Example: mod = fsimport('../utils/mod')"""
     call_stack = inspect.stack()
 
